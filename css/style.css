@@ -1,0 +1,154 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#kolList {
+  height: 3rem;
+  width: 16rem;
+  color: #FFCC33;
+  background-color: #666600;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+#text1 {
+  color: rgb(111, 118, 126);
+  font-weight: 200;
+}
+
+#kol {
+  color: rgb(111, 118, 126);
+  font-size: smaller;
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  transform: rotate(-45deg);
+  margin: 50px;
+}
+
+.heart before {
+  top: -50px;
+  left: 0;
+}
+.heart before content {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
+.heartafter {
+  top: 0;
+  left: -50px;
+}
+.heartafter content {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#search {
+  height: 3rem;
+  box-sizing: border-box;
+  border: 1px;
+  border-radius: 15px;
+  font-size: 80%;
+  background-color: rgb(47, 48, 46);
+  background-position: 10px 10px;
+  padding: 12px 20px 12px 40px;
+  color: rgb(131, 131, 132);
+}
+
+#bsc {
+  display: flex;
+  margin-left: 0.5rem;
+  color: azure;
+  border: 1px solid rgb(47, 48, 46);
+  border-radius: 8px;
+  background-color: rgb(47, 48, 46);
+}
+
+#wallet {
+  background-color: yellow;
+  color: black;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  border: 1px solid yellow;
+  border-radius: 8px;
+}
+
+#btn2 {
+  color: #838384;
+}
+
+#dtn {
+  background-color: #ffd30e;
+  font-weight: bold;
+  border: 1 solid;
+  border-radius: 8px;
+}
+
+#urow1 {
+  margin-top: 2rem;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 2rem;
+  width: 15rem;
+  color: white;
+}
+
+#connect {
+  height: 10rem;
+  border: 1px solid yellow;
+  border-radius: 12px;
+  padding: 2px;
+  background-image: linear-gradient(to right, #9acd32, #ffd700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#connectBtn {
+  height: 2.7rem;
+  width: 12.25rem;
+  border: 2px solid yellow;
+  border-radius: 1.25rem;
+  padding: 2px;
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+#followed {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 5rem);
+}
+
+#recomed {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 5rem);
+}/*# sourceMappingURL=style.css.map */
